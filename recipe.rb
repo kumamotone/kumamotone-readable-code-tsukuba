@@ -4,7 +4,7 @@ def print_recipe_data
   puts 'オムライス'
 end
 
-# spec02
+# spec04
 def read_recipe_from_file_and_puts
   File.open('recipe-data.txt') do |file|
     file.each_line do |recipe|
